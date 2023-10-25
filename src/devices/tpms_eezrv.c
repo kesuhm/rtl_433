@@ -131,7 +131,7 @@ static int tpms_eezrv_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 
     /* clang-format off */
     data_t *data = data_make(
-            "model",            "",             DATA_STRING, "EezTire-E618, Carchet",
+            "model",            "",             DATA_STRING, "EezTire-E618",
             "type",             "",             DATA_STRING, "TPMS",
             "id",               "",             DATA_STRING, id_str,
             "pressure_kPa",     "Pressure",     DATA_FORMAT, "%.0f kPa", DATA_DOUBLE, (double)pressure_kPa,
